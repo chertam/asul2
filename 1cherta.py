@@ -7,33 +7,27 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,requests,urllib
 
 cl = ASUL.LINE()
-cl.login(qr=True)
-#cl.login(token="Ekvgz2Nht8TZmlZCyP6.xxD+zgW3gaYtM/L6PqLWLG.66vfknBfN3kwpXVAYkzt2QRuS+qMx+vXyqJUk4rNONE=")
+cl.login(token="EnUIWCs65Kfoo2s1tqH7.05dhiwN93BE6Oj5qlgI2nW.5qhqcv/vEcUyKHJuPdRJdvIwFjpjCUlMgq7vGd51pWI=")
 cl.loginResult()
 
 ki = ASUL.LINE()
-ki.login(qr=True)
-#ki.login(token="EMqguQKoWRChdS1Yy01.KaptOybxCrifYDMnQKDtuq.myKbgnq75ijMnfqNzTgPBntdTWRYkSAGcVHGG8QdUeI=")
+ki.login(token="EnVMcGVJpLzy4422SWL8.ngL6FRFbKD2FEYPVq7e+Ma.cRjmOxQJwErFEzyqRzF04KW64iKK4f2/EVRUHeyfvdc=")
 ki.loginResult()
 
 ki2 = ASUL.LINE()
-ki2.login(qr=True)
-#ki2.login(token="EhpaV5QXhfvD6wHcKV5.AGDp9RAvVu74uEPb2dOObq.wfta/vi1XqkHd983LJ8o136RGMdMga18zToNmykkAHM=")
+ki2.login(token="Enn0iMV4NnFbOqkEMaY8.Aql3fmICu2QPl+x8qOIdMa.aAFIowC75ccrFJgH2oUrJ1D4CMggDVdkjqAmBhLcPco=")
 ki2.loginResult()
 
 ki3 = ASUL.LINE()
-ki3.login(qr=True)
-#ki3.login(token="EDUomCSeC02CSAnblj5.e6R7RPm6s4jF9KtBEUefbq.Vw7yrim8fQLPzJnXDBceP/hxV2f3PT6cVlC2omVV1cs=")
+ki3.login(token="EnRq77YamTot3XhoSzd3.HoFXeW+Ij8E5/bBEd5PFqW.SnU/ew2YNbr4+hIWb81XK4aRGrI0F7D21LXxsKpqcUo=")
 ki3.loginResult()
 
 ki4 = ASUL.LINE()
-ki4.login(qr=True)
-#ki4.login(token="Et78GwPwiWuvKqYzrqc.QMisVJ1WbxPZk9PyOBG1la.LqGqs9M3wMXmrG5cuQf+CKEuxhlBHIJSyo7GEz/qYDM=")
+ki4.login(token="EnLmgv3LY49VqODmBkD7.6hF/JPBzH6P7xuex7YoVbW.0e+zWN4gQ6Ljs3liu27sGoN9mHSNhKAUW5bErn7QS9o=")
 ki4.loginResult()
 
 ki5 = ASUL.LINE()
-ki5.login(qr=True)
-#ki5.login(token="EnQLf7tZB5mkiC9otb7.ytumAwr3H3EXn5tszTzCDW.zBLGBfkkq2Vvyi+UTKyDBRN+T+5dR7Re5i7SdsDumx4=")
+ki5.login(token="EnQedKB08Hp4Do39PhA7.9yYlqmprj3NBz7lXNZ0D1W.KUW/ctHkaFD7lwr3yqKFU1LuA5MmlZlgS6V8Mdv5GqI=")
 ki5.loginResult()
 
 ki6 = ASUL.LINE()
@@ -129,7 +123,7 @@ helpMessage ="""||=====  F O R   U S E R  =====||
 
                ✯==== Creator ====✯
 	
-  Http://line.me/ti/p/~toon.38
+═ই Ծণளণゆ👙њஆ∫თই═
 
                     
 """
@@ -170,7 +164,7 @@ Thaihelp ="""\n
 ||✒️ Backup  - คิกเกอร์1กลับร่างเดิม
 ||✒️ Spam on/off  - ส่งข้อความสแปม
 ||==============================||
-✯★Creator By ═ह वतेु১तेั७ழণ১ह═★✯
+✯★Creator By. ═ই Ծণளণゆ👙њஆ∫თই═
 
 """
 
@@ -183,10 +177,10 @@ ki2mid = ki2.getProfile().mid
 ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
 ki5mid = ki5.getProfile().mid
-Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,"u5d777f646c37180c939be97aa5097096"]
+Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,"ud390c72169fdddb7baa09e502c68b637"]
 bot1 = cl.getProfile().mid
-admsa = "u5d777f646c37180c939be97aa5097096"
-admin = "u5d777f646c37180c939be97aa5097096"
+admsa = "ud390c72169fdddb7baa09e502c68b637"
+admin = "ud390c72169fdddb7baa09e502c68b637"
 
 wait = {
     'contact':False,
@@ -195,9 +189,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"selt bot by\n┅═हवतेु১तेั७ழণ১ह═ \nhttp://line.me/ti/p/~toon.38",
+    'message':"selt bot by\n═ই Ծণளণゆ👙њஆ∫თই═",
     "lang":"JP",
-    "comment":"Auto Like By \n┅═ह वतेु১तेั७ழণ১ह═┅",
+    "comment":"Auto Like By \n═ই Ծণளণゆ👙њஆ∫თই═",
     "commentOn":False,
     "likeOn":False,
     "commentBlack":{},
@@ -302,7 +296,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u5d777f646c37180c939be97aa5097096":
+                if msg.from_ == "ud390c72169fdddb7baa09e502c68b637":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -319,13 +313,13 @@ def bot(op):
         if op.type == 15:
             if op.param2 in bot1:
                 return
-            cl.sendText(op.param1,"ไปซะละ  " + cl.getContact(op.param2).displayName + "  ลาก่อย\n～(^з^)-♡")
+            cl.sendText(op.param1,"ไปซะละ  " + cl.getContact(op.param2).displayName + "  ลาก่อน\n～(^з^)-♡")
             print ("MEMBER HAS LEFT THE GROUP")
 #------------------ KICK OUT FORM GROUP
         if op.type == 19:
             if op.param2 in bot1:
                 return
-            cl.sendText(op.param1,cl.getContact(op.param2).displayName + " ซัดเต็มข้อเลยครับ ท่านผู้ชม")
+            cl.sendText(op.param1,cl.getContact(op.param2).displayName + " จัดหนักจัดเต็มเลยเนาะ")
             print "MEMBER KICK OUT FORM GROUP"
 # ----------------- NOTIFED MEMBER JOIN GROUP
         if op.type == 17:
